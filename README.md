@@ -23,4 +23,8 @@ It is also possible to pass a SeriLog ```ILogger``` instance:
         ...
         .Build();
 
+<h1>Dependencies</h1>
+* <a href="https://www.nuget.org/packages/Serilog/">Serilog</a>
+* <a href="https://www.nuget.org/packages/EventStore.Client/">EventStore.Client</a>
+
 
