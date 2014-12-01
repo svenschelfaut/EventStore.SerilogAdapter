@@ -23,7 +23,7 @@ namespace EventStore.SerilogAdapter
         /// <param name="connectionSettingsBuilder">The connection settings builder.</param>
         /// <param name="seriLogger">Serilog logger</param>
         /// <returns></returns>
-        public static ConnectionSettingsBuilder UseSeriLog(this ConnectionSettingsBuilder connectionSettingsBuilder, Serilog.ILogger seriLogger)
+        public static ConnectionSettingsBuilder UseSerilog(this ConnectionSettingsBuilder connectionSettingsBuilder, Serilog.ILogger seriLogger)
         {
             return connectionSettingsBuilder.UseCustomLogger(new EventStoreSerilogger(seriLogger));
         }
