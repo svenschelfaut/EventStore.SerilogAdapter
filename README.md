@@ -3,7 +3,7 @@ EventStore.SerilogAdapter
 This small library enables you to use Serilog (http://serilog.net) as a logger for Greg Young's EventStore (http://geteventstore.com)
 <h1>Usage</h1>
 
-Extensions method ```UseSerilog``` is made available on ```ConnectionSettingsBuilder```.
+Extensions method ```UseSerilog``` is available on ```ConnectionSettingsBuilder```.
 
 This will use the default logger from Serilog ```Log.Logger```:
 
