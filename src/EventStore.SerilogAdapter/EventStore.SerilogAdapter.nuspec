@@ -2,11 +2,10 @@
 <package >
   <metadata>
     <id>EventStore.SerilogAdapter</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Sven Schelfaut</authors>
     <owners>Sven Schelfaut</owners> 
     <projectUrl>https://github.com/svenschelfaut/EventStore.SerilogAdapter</projectUrl>
-    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This small library enables you to use Serilog (http://serilog.net) as a logger for Greg Young's EventStore (http://geteventstore.com)</description>   
     <dependencies>
@@ -14,8 +13,4 @@
 		<dependency id="Serilog" version="[1.0,)" />
     </dependencies>
   </metadata>
-  <files>    
-    <file src="..\src\EventStore.SerilogAdapter\bin\Release\EventStore.SerilogAdapter.dll" target="lib\net45" />
-	<file src="..\src\EventStore.SerilogAdapter\bin\Release\EventStore.SerilogAdapter.pdb" target="lib\net45" />  	
-  </files>
 </package>
